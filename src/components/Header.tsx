@@ -26,7 +26,7 @@ const Header: React.FC = () => {
       <div className="header-container">
         <div className="logo">
           <Gamepad2 className="logo-icon" size={28} />
-          <span className="logo-text text-gradient">Haradu Games</span>
+          <span className="logo-text text-gradient">Harado Games</span>
         </div>
 
         {/* Desktop Navigation */}

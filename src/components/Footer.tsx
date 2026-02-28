@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
 
                 <div className="footer-content">
                     <div className="footer-brand">
-                        <h2 className="footer-logo text-gradient">Haradu Games</h2>
+                        <h2 className="footer-logo text-gradient">Harado Games</h2>
                         <p className="footer-tagline">
                             モンストのランキング動画やプレイ動画をお届け！<br />
                             チャンネル登録・フォローよろしくお願いします！
@@ -46,7 +46,7 @@ const Footer: React.FC = () => {
                 </div>
 
                 <div className="footer-bottom">
-                    <p>&copy; {new Date().getFullYear()} Haradu Games. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} Harado Games. All rights reserved.</p>
                 </div>
             </div>
 

@@ -14,7 +14,7 @@ const Hero: React.FC = () => {
                 <div className="hero-content">
                     <h2 className="hero-subtitle text-gradient">WELCOME TO</h2>
                     <h1 className="hero-title">
-                        <span className="title-word main">HARADU</span>
+                        <span className="title-word main">HARADO</span>
                         <span className="title-word accent">GAMES</span>
                     </h1>
                     <p className="hero-description">
