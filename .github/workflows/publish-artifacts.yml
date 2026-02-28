@@ -1,0 +1,41 @@
+name: Publish AI Artifacts to Issues
+
+on:
+  push:
+    paths:
+      - 'docs/*.md'
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  issues: write
+  contents: read
+
+jobs:
+  publish-artifacts:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Create or Update Issues from Artifacts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          for file in docs/*.md; do
+            if [ -f "$file" ]; then
+              title="AI Artifact: $(basename "$file" .md | tr '_' ' ' | awk '{for(i=1;i<=NF;i++)sub(/./,toupper(substr($i,1,1)),$i)}1')"
+              
+              # Check if an issue with this title already exists
+              issue_number=$(gh issue list --search "in:title \"$title\"" --json number -q '.[0].number')
+              
+              if [ -n "$issue_number" ]; then
+                echo "Updating existing issue #$issue_number for $file"
+                gh issue edit "$issue_number" --body-file "$file"
+              else
+                echo "Creating new issue for $file"
+                gh issue create --title "$title" --body-file "$file"
+              fi
+            fi
+          done
