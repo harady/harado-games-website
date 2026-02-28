@@ -24,7 +24,7 @@ const Hero: React.FC = () => {
 
                     <div className="hero-actions">
                         <a
-                            href="https://www.youtube.com/@%E3%81%AF%E3%82%89%E3%81%A9%E3%81%85%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%B9"
+                            href="https://www.youtube.com/@haruto_game"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="btn btn-primary"

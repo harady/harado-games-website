@@ -42,7 +42,7 @@ const Header: React.FC = () => {
 
         {/* Social Icons (Desktop) */}
         <div className="social-actions desktop-only">
-          <a href="https://www.youtube.com/@%E3%81%AF%E3%82%89%E3%81%A9%E3%81%85%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%B9" target="_blank" rel="noopener noreferrer" className="social-btn yt">
+          <a href="https://www.youtube.com/@haruto_game" target="_blank" rel="noopener noreferrer" className="social-btn yt">
             <Youtube size={20} />
           </a>
           <a href="#" className="social-btn tw">
@@ -51,7 +51,7 @@ const Header: React.FC = () => {
         </div>
 
         {/* Mobile Menu Toggle */}
-        <button 
+        <button
           className="mobile-menu-btn"
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
         >
@@ -64,8 +64,8 @@ const Header: React.FC = () => {
         <ul className="mobile-nav-list">
           {navLinks.map((link) => (
             <li key={link.name}>
-              <a 
-                href={link.href} 
+              <a
+                href={link.href}
                 className="mobile-nav-link"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
@@ -74,7 +74,7 @@ const Header: React.FC = () => {
             </li>
           ))}
           <li className="mobile-socials">
-            <a href="https://www.youtube.com/@%E3%81%AF%E3%82%89%E3%81%A9%E3%81%85%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%B9" target="_blank" rel="noopener noreferrer" className="social-btn yt">
+            <a href="https://www.youtube.com/@haruto_game" target="_blank" rel="noopener noreferrer" className="social-btn yt">
               <Youtube size={24} />
             </a>
             <a href="#" className="social-btn tw">
