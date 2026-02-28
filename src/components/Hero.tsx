@@ -18,13 +18,13 @@ const Hero: React.FC = () => {
                         <span className="title-word accent">GAMES</span>
                     </h1>
                     <p className="hero-description">
-                        最新のゲーム実況からマッドな検証企画まで！<br />
-                        はらどぅのハチャメチャなゲームライフへようこそ。
+                        モンストのランキング動画やプレイ動画をアップロードしています。<br />
+                        是非、気軽にコメントしていただけると嬉しいです😆
                     </p>
 
                     <div className="hero-actions">
                         <a
-                            href="https://www.youtube.com/@haruto_game"
+                            href="https://www.youtube.com/@%E3%81%AF%E3%82%89%E3%81%A9%E3%81%85%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%B9"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="btn btn-primary"

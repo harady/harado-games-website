@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
                     <div className="footer-brand">
                         <h2 className="footer-logo text-gradient">Haradu Games</h2>
                         <p className="footer-tagline">
-                            エンタメ全開のゲーム実況をお届け！<br />
+                            モンストのランキング動画やプレイ動画をお届け！<br />
                             チャンネル登録・フォローよろしくお願いします！
                         </p>
                     </div>
@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
                         <div className="link-group">
                             <h3>Connect</h3>
                             <div className="social-links">
-                                <a href="https://www.youtube.com/@haruto_game" className="social-icon yt" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.youtube.com/@%E3%81%AF%E3%82%89%E3%81%A9%E3%81%85%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%B9" className="social-icon yt" target="_blank" rel="noopener noreferrer">
                                     <Youtube size={24} />
                                     <span>YouTube</span>
                                 </a>
