@@ -6,21 +6,21 @@ const videos = [
     {
         id: 1,
         title: "【モンスト】2024年3月版最強キャラランキングTOP100改訂版、激獣神祭新限定ゲキリン...",
-        thumbnail: "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=2070&auto=format&fit=crop",
+        thumbnail: "https://i.ytimg.com/vi/VaKj1_84YDA/hqdefault.jpg",
         views: "2898回",
         date: "1年前"
     },
     {
         id: 2,
         title: "【モンスト】2024年2月版最強キャラランキングTOP100改訂版、天魔の孤城 空中庭園の追加...",
-        thumbnail: "https://images.unsplash.com/photo-1552820728-8b83bb6b773f?q=80&w=2070&auto=format&fit=crop",
+        thumbnail: "https://i.ytimg.com/vi/RHw5ENFUDqM/hqdefault.jpg",
         views: "1847回",
         date: "1年前"
     },
     {
         id: 3,
         title: "【モンスト】2024年1月版最強キャラランキングTOP100改訂版、2024年の新春限定キャラ...",
-        thumbnail: "https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=2071&auto=format&fit=crop",
+        thumbnail: "https://i.ytimg.com/vi/q5qjCr55u8c/hqdefault.jpg",
         views: "266回",
         date: "1年前"
     }
@@ -30,17 +30,17 @@ const popularVideos = [
     {
         id: 4,
         title: "【モンスト】黎絶ロヴァー攻略！自分は一体でもマサムネを減らしたら勝てない😱...",
-        thumbnail: "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?q=80&w=2070&auto=format&fit=crop",
+        thumbnail: "https://i.ytimg.com/vi/9zq3uHAX94o/hqdefault.jpg",
     },
     {
         id: 5,
         title: "【モンスト】2023年12月版最強キャラランキングTOP100、2023年終了時点！...",
-        thumbnail: "https://images.unsplash.com/photo-1534423861386-85a16f5d13fd?q=80&w=2070&auto=format&fit=crop",
+        thumbnail: "https://i.ytimg.com/vi/7W4a_heJ3Us/hqdefault.jpg",
     },
     {
         id: 6,
         title: "【モンスト】新春超獣神祭マサムネ狙いXXX連！！アルセーヌ、ハレルヤも引きたいけど...",
-        thumbnail: "https://images.unsplash.com/photo-1561654791-00316c79efa8?q=80&w=2054&auto=format&fit=crop",
+        thumbnail: "https://i.ytimg.com/vi/cJr-XMfnA3Y/hqdefault.jpg",
     }
 ];
 
